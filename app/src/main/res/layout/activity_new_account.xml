@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/signup"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:textColor="#fffafa"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <EditText android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fffafa"
+        app:hintTextColor="@color/hifza"
+        android:hint="Email address or hone number"
+        android:ems="12"
+        android:inputType="text"/>
+    <EditText android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:hintTextColor="@color/hifza"
+        android:hint="Password"
+        android:ems="12"
+        android:inputType="textVisiblePassword"/>
+    <Button android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Create Account"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>

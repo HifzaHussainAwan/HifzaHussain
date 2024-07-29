@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2A4A"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Include the toolbar at the top -->
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Path"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/languages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Languages"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#3D3A6A"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/javascript_logo_svgrepo_com"
+            android:padding="8dp"
+            android:text="JavaScript"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/custom_button"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/html_5_logo_svgrepo_com__1_"
+            android:text="HTML" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/css_3_logo_svgrepo_com"
+            android:padding="8dp"
+            android:text="CSS"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:background="@drawable/custom_button"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/java_logo_svgrepo_com"
+            android:layout_marginRight="8dp"
+            android:text="JAVA"/>
+    </LinearLayout>
+
+</LinearLayout>

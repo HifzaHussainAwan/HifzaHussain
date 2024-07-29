@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="About_us">About us</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="html_roadmap">Html RoadMap</string>
+    <string name="ul">ul</string>
+    <string name="what_is_html">What is HTML?</string>
+    <string name="html_describes_the_structure_of_a_web_page">HTML describes the structure of a Web page</string>
+    <string name="visual">Visual</string>
+    <string name="html_stands_for_hyper_text_markup_language">HTML stands for Hyper Text Markup Language</string>
+    <string name="html_is_the_standard_markup_language_for_creating_web_pages">HTML is the standard markup language for creating Web pages</string>
+    <string name="html_elements_tell_the_browser_how_to_display_the_content">HTML elements tell the browser how to display the content</string>
+    <string name="html_consists_of_a_series_of_elements">HTML consists of a series of elements</string>
+    <string name="info">Info</string>
+    <string name="logout">logout</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="share">Share</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="bit_buddies">bit_buddies</string>
+</resources>
